@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC41869715BFE13500B8B5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC41869615BFE13500B8B5A4 /* UIKit.framework */; };
+		AC41869915BFE13500B8B5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC41869815BFE13500B8B5A4 /* Foundation.framework */; };
+		AC41869B15BFE13500B8B5A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC41869A15BFE13500B8B5A4 /* CoreGraphics.framework */; };
+		AC4186A115BFE13600B8B5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC41869F15BFE13600B8B5A4 /* InfoPlist.strings */; };
+		AC4186A315BFE13600B8B5A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4186A215BFE13600B8B5A4 /* main.m */; };
+		AC4186A715BFE13600B8B5A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4186A615BFE13600B8B5A4 /* AppDelegate.m */; };
+		AC4186AF15BFE17A00B8B5A4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4186AE15BFE17A00B8B5A4 /* MainViewController.m */; };
+		AC4186BA15C00E5E00B8B5A4 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4186B915C00E5E00B8B5A4 /* HistoryViewController.m */; };
+		AC53578D15C262FF00CD5EB4 /* Keyboard10.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53578C15C262FF00CD5EB4 /* Keyboard10.m */; };
+		AC53579415C26CC000CD5EB4 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = AC53579315C26CC000CD5EB4 /* Calc.m */; };
+		AC6DCD0315C394D600EA619E /* CalcHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6DCD0215C394D600EA619E /* CalcHistory.m */; };
+		C30A5DAE15CA54900007F36E /* CalcState.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DAD15CA54900007F36E /* CalcState.m */; };
+		C30A5DB815CA63EE0007F36E /* CalcInit.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DB715CA63EE0007F36E /* CalcInit.m */; };
+		C30A5DC915CA74EE0007F36E /* CalculatoEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DC815CA74EE0007F36E /* CalculatoEvent.m */; };
+		C30A5DD315CE8E500007F36E /* CalcInitNumInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DD215CE8E500007F36E /* CalcInitNumInput.m */; };
+		C30A5DD615CF63500007F36E /* CalcInitOperatorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DD515CF63500007F36E /* CalcInitOperatorInput.m */; };
+		C30A5DD915CF71B50007F36E /* CalcOperatorInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DD815CF71B30007F36E /* CalcOperatorInput.m */; };
+		C30A5DDC15CF75660007F36E /* CalcNumInput.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DDB15CF75660007F36E /* CalcNumInput.m */; };
+		C30A5DDF15CF81580007F36E /* CalcResultOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DDE15CF81580007F36E /* CalcResultOutput.m */; };
+		C30A5DE215CF8CF80007F36E /* CalcMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = C30A5DE115CF8CF80007F36E /* CalcMemory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC41869215BFE13500B8B5A4 /* dentaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dentaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC41869615BFE13500B8B5A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC41869815BFE13500B8B5A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC41869A15BFE13500B8B5A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC41869E15BFE13600B8B5A4 /* dentaku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dentaku-Info.plist"; sourceTree = "<group>"; };
+		AC4186A015BFE13600B8B5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC4186A215BFE13600B8B5A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC4186A415BFE13600B8B5A4 /* dentaku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dentaku-Prefix.pch"; sourceTree = "<group>"; };
+		AC4186A515BFE13600B8B5A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC4186A615BFE13600B8B5A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC4186AD15BFE17A00B8B5A4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AC4186AE15BFE17A00B8B5A4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AC4186B015BFE33900B8B5A4 /* Key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		AC4186B815C00E5E00B8B5A4 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		AC4186B915C00E5E00B8B5A4 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		AC53578B15C262FF00CD5EB4 /* Keyboard10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard10.h; sourceTree = "<group>"; };
+		AC53578C15C262FF00CD5EB4 /* Keyboard10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard10.m; sourceTree = "<group>"; };
+		AC53579215C26CC000CD5EB4 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
+		AC53579315C26CC000CD5EB4 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
+		AC6DCD0115C394D600EA619E /* CalcHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcHistory.h; sourceTree = "<group>"; };
+		AC6DCD0215C394D600EA619E /* CalcHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcHistory.m; sourceTree = "<group>"; };
+		ACEA48D215C77431004D6A5D /* HistoryViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewDelegate.h; sourceTree = "<group>"; };
+		C30A5DAC15CA54900007F36E /* CalcState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcState.h; sourceTree = "<group>"; };
+		C30A5DAD15CA54900007F36E /* CalcState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcState.m; sourceTree = "<group>"; };
+		C30A5DB615CA63EE0007F36E /* CalcInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcInit.h; sourceTree = "<group>"; };
+		C30A5DB715CA63EE0007F36E /* CalcInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcInit.m; sourceTree = "<group>"; };
+		C30A5DC715CA74EE0007F36E /* CalculatoEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatoEvent.h; sourceTree = "<group>"; };
+		C30A5DC815CA74EE0007F36E /* CalculatoEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatoEvent.m; sourceTree = "<group>"; };
+		C30A5DD115CE8E500007F36E /* CalcInitNumInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcInitNumInput.h; sourceTree = "<group>"; };
+		C30A5DD215CE8E500007F36E /* CalcInitNumInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcInitNumInput.m; sourceTree = "<group>"; };
+		C30A5DD415CF634F0007F36E /* CalcInitOperatorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcInitOperatorInput.h; sourceTree = "<group>"; };
+		C30A5DD515CF63500007F36E /* CalcInitOperatorInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcInitOperatorInput.m; sourceTree = "<group>"; };
+		C30A5DD715CF71B20007F36E /* CalcOperatorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcOperatorInput.h; sourceTree = "<group>"; };
+		C30A5DD815CF71B30007F36E /* CalcOperatorInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcOperatorInput.m; sourceTree = "<group>"; };
+		C30A5DDA15CF75650007F36E /* CalcNumInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcNumInput.h; sourceTree = "<group>"; };
+		C30A5DDB15CF75660007F36E /* CalcNumInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcNumInput.m; sourceTree = "<group>"; };
+		C30A5DDD15CF81570007F36E /* CalcResultOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcResultOutput.h; sourceTree = "<group>"; };
+		C30A5DDE15CF81580007F36E /* CalcResultOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcResultOutput.m; sourceTree = "<group>"; };
+		C30A5DE015CF8CF70007F36E /* CalcMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcMemory.h; sourceTree = "<group>"; };
+		C30A5DE115CF8CF80007F36E /* CalcMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcMemory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC41868F15BFE13500B8B5A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC41869715BFE13500B8B5A4 /* UIKit.framework in Frameworks */,
+				AC41869915BFE13500B8B5A4 /* Foundation.framework in Frameworks */,
+				AC41869B15BFE13500B8B5A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC41868715BFE13500B8B5A4 = {
+			isa = PBXGroup;
+			children = (
+				AC41869C15BFE13500B8B5A4 /* dentaku */,
+				AC41869515BFE13500B8B5A4 /* Frameworks */,
+				AC41869315BFE13500B8B5A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC41869315BFE13500B8B5A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC41869215BFE13500B8B5A4 /* dentaku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC41869515BFE13500B8B5A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC41869615BFE13500B8B5A4 /* UIKit.framework */,
+				AC41869815BFE13500B8B5A4 /* Foundation.framework */,
+				AC41869A15BFE13500B8B5A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC41869C15BFE13500B8B5A4 /* dentaku */ = {
+			isa = PBXGroup;
+			children = (
+				AC4186A515BFE13600B8B5A4 /* AppDelegate.h */,
+				AC4186A615BFE13600B8B5A4 /* AppDelegate.m */,
+				AC41869D15BFE13600B8B5A4 /* Supporting Files */,
+				AC4186AD15BFE17A00B8B5A4 /* MainViewController.h */,
+				AC4186AE15BFE17A00B8B5A4 /* MainViewController.m */,
+				AC4186B015BFE33900B8B5A4 /* Key.h */,
+				AC4186B815C00E5E00B8B5A4 /* HistoryViewController.h */,
+				AC4186B915C00E5E00B8B5A4 /* HistoryViewController.m */,
+				AC53578B15C262FF00CD5EB4 /* Keyboard10.h */,
+				AC53578C15C262FF00CD5EB4 /* Keyboard10.m */,
+				AC53579215C26CC000CD5EB4 /* Calc.h */,
+				AC53579315C26CC000CD5EB4 /* Calc.m */,
+				AC6DCD0115C394D600EA619E /* CalcHistory.h */,
+				AC6DCD0215C394D600EA619E /* CalcHistory.m */,
+				ACEA48D215C77431004D6A5D /* HistoryViewDelegate.h */,
+				C30A5DD015CE8D550007F36E /* State */,
+				C30A5DC715CA74EE0007F36E /* CalculatoEvent.h */,
+				C30A5DC815CA74EE0007F36E /* CalculatoEvent.m */,
+				C30A5DE015CF8CF70007F36E /* CalcMemory.h */,
+				C30A5DE115CF8CF80007F36E /* CalcMemory.m */,
+			);
+			path = dentaku;
+			sourceTree = "<group>";
+		};
+		AC41869D15BFE13600B8B5A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC41869E15BFE13600B8B5A4 /* dentaku-Info.plist */,
+				AC41869F15BFE13600B8B5A4 /* InfoPlist.strings */,
+				AC4186A215BFE13600B8B5A4 /* main.m */,
+				AC4186A415BFE13600B8B5A4 /* dentaku-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C30A5DD015CE8D550007F36E /* State */ = {
+			isa = PBXGroup;
+			children = (
+				C30A5DAC15CA54900007F36E /* CalcState.h */,
+				C30A5DAD15CA54900007F36E /* CalcState.m */,
+				C30A5DB615CA63EE0007F36E /* CalcInit.h */,
+				C30A5DB715CA63EE0007F36E /* CalcInit.m */,
+				C30A5DD115CE8E500007F36E /* CalcInitNumInput.h */,
+				C30A5DD215CE8E500007F36E /* CalcInitNumInput.m */,
+				C30A5DD415CF634F0007F36E /* CalcInitOperatorInput.h */,
+				C30A5DD515CF63500007F36E /* CalcInitOperatorInput.m */,
+				C30A5DD715CF71B20007F36E /* CalcOperatorInput.h */,
+				C30A5DD815CF71B30007F36E /* CalcOperatorInput.m */,
+				C30A5DDA15CF75650007F36E /* CalcNumInput.h */,
+				C30A5DDB15CF75660007F36E /* CalcNumInput.m */,
+				C30A5DDD15CF81570007F36E /* CalcResultOutput.h */,
+				C30A5DDE15CF81580007F36E /* CalcResultOutput.m */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC41869115BFE13500B8B5A4 /* dentaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4186AA15BFE13600B8B5A4 /* Build configuration list for PBXNativeTarget "dentaku" */;
+			buildPhases = (
+				AC41868E15BFE13500B8B5A4 /* Sources */,
+				AC41868F15BFE13500B8B5A4 /* Frameworks */,
+				AC41869015BFE13500B8B5A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dentaku;
+			productName = dentaku;
+			productReference = AC41869215BFE13500B8B5A4 /* dentaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC41868915BFE13500B8B5A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = oya3.net;
+			};
+			buildConfigurationList = AC41868C15BFE13500B8B5A4 /* Build configuration list for PBXProject "dentaku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC41868715BFE13500B8B5A4;
+			productRefGroup = AC41869315BFE13500B8B5A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC41869115BFE13500B8B5A4 /* dentaku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC41869015BFE13500B8B5A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4186A115BFE13600B8B5A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC41868E15BFE13500B8B5A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4186A315BFE13600B8B5A4 /* main.m in Sources */,
+				AC4186A715BFE13600B8B5A4 /* AppDelegate.m in Sources */,
+				AC4186AF15BFE17A00B8B5A4 /* MainViewController.m in Sources */,
+				AC4186BA15C00E5E00B8B5A4 /* HistoryViewController.m in Sources */,
+				AC53578D15C262FF00CD5EB4 /* Keyboard10.m in Sources */,
+				AC53579415C26CC000CD5EB4 /* Calc.m in Sources */,
+				AC6DCD0315C394D600EA619E /* CalcHistory.m in Sources */,
+				C30A5DAE15CA54900007F36E /* CalcState.m in Sources */,
+				C30A5DB815CA63EE0007F36E /* CalcInit.m in Sources */,
+				C30A5DC915CA74EE0007F36E /* CalculatoEvent.m in Sources */,
+				C30A5DD315CE8E500007F36E /* CalcInitNumInput.m in Sources */,
+				C30A5DD615CF63500007F36E /* CalcInitOperatorInput.m in Sources */,
+				C30A5DD915CF71B50007F36E /* CalcOperatorInput.m in Sources */,
+				C30A5DDC15CF75660007F36E /* CalcNumInput.m in Sources */,
+				C30A5DDF15CF81580007F36E /* CalcResultOutput.m in Sources */,
+				C30A5DE215CF8CF80007F36E /* CalcMemory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC41869F15BFE13600B8B5A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4186A015BFE13600B8B5A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4186A815BFE13600B8B5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4186A915BFE13600B8B5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4186AB15BFE13600B8B5A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dentaku/dentaku-Prefix.pch";
+				INFOPLIST_FILE = "dentaku/dentaku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC4186AC15BFE13600B8B5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dentaku/dentaku-Prefix.pch";
+				INFOPLIST_FILE = "dentaku/dentaku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC41868C15BFE13500B8B5A4 /* Build configuration list for PBXProject "dentaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4186A815BFE13600B8B5A4 /* Debug */,
+				AC4186A915BFE13600B8B5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4186AA15BFE13600B8B5A4 /* Build configuration list for PBXNativeTarget "dentaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4186AB15BFE13600B8B5A4 /* Debug */,
+				AC4186AC15BFE13600B8B5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC41868915BFE13500B8B5A4 /* Project object */;
+}
